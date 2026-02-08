@@ -4,7 +4,7 @@ A simple web application to keep track of books you've read, including title, au
 Add books with title, author, and publish year. View your reading list in table or card layout. Edit and delete book entries. MongoDB database for persistent storage. Clean and minimal user interface.
 
 ### Technologies
-Frontend: HTML5, CSS3, JavaScript
+Frontend: HTML5, CSS3, JavaScript, Vite
 Backend: Node.js
 Database: MongoDB
 
@@ -23,4 +23,5 @@ GET /books = Get all books
 POST /books = Add a new book
 PUT /books/:id = Update a book
 DELETE /books/:id = Delete a book
+
 
